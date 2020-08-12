@@ -1,0 +1,18 @@
+Reference:
+
+[2]Spark（十）Spark之数据倾斜调优(代码不完整,Java的)
+[3]解决spark中遇到的数据倾斜问题（代码不完整）
+[4]spark处理数据倾斜的案例（图示很清楚，但是代码不详细）
+[5]Spark如何处理数据倾斜(代码完整,scala版本，加微信问了作者，连他自己都不记得为啥这么写了。而且都是local模式)
+[6]Spark--聚合性数据倾斜解决方案实例说明(代码很详细,但是没有数据集)
+[7]解决spark数据倾斜(代码完整，scala版本)
+[8]spark调优之数据倾斜(代码完整,scala版本)
+[9]最完整的数据倾斜解决方案(spark)(代码不完整Java)
+[10]Spark性能优化之道——解决Spark数据倾斜（Data Skew）的N种姿势(没有数据集,代码很详细，Java)
+[12]Spark Shuffle Write 和Read(没看懂，代码很复杂)
+[13]Spark shuffle-write 和 shuffle-read 中对数据倾斜情况的处理(开头概念很清晰)
+[14]彻底搞懂spark的shuffle过程（shuffle write）(讲解shuffle过程)
+[16]Spark性能优化：数据倾斜调优
+
+
+现在先以[2]为准

@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73a5c727-ebd4-449c-8a43-c7c6fb2bb83b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_7_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_7_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_7_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_google_inject_extensions_guice_servlet_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_google_inject_guice_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_google_re2j_re2j_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_4_41_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_ning_compress_lzf_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_guice_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__commons_net_commons_net_3_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__io_netty_netty_all_4_0_52_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__junit_junit_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_commons_commons_configuration2_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_commons_commons_crypto_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_curator_curator_client_2_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_curator_curator_framework_2_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_3_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_3_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_3_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_3_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_client_3_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_3_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_3_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_3_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_3_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_3_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_htrace_htrace_core4_4_1_0_incubating.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_ivy_ivy_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerb_admin_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerb_client_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerb_common_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerb_core_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerb_crypto_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerb_identity_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerb_server_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerb_simplekdc_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerb_util_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerby_asn1_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerby_config_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerby_pkix_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerby_util_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_kerby_xdr_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_kerby_token_provider_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_12_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_ajax_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_jmock_jmock_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_scalacheck_scalacheck_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_scalatest_scalatest_0_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_spark_project_spark_unused_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__org_specs_specs_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/libraries/Maven__oro_oro_2_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/.idea/加盐.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/src/main/java/PairFunction1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/src/main/java/PairFunction2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/src/main/java/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/src/main/java/salting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../加盐/src/main/java/加盐原理图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dataskew.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wordcount/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wordcount/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../wordcount/Java/src/main/java/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../wordcount/Java/src/main/java/hello.txt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="21" column="30" selection-end-line="32" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/salting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-228">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#665#1223#0" expanded="true" />
+                <element signature="e#1222#1223#0" expanded="true" />
+                <element signature="e#1163#1339#0" expanded="true" />
+                <element signature="e#1338#1339#0" expanded="true" />
+                <element signature="e#1438#1790#0" expanded="true" />
+                <element signature="e#1789#1790#0" expanded="true" />
+                <element signature="e#1890#2092#0" expanded="true" />
+                <element signature="e#2091#2092#0" expanded="true" />
+                <element signature="e#3026#3472#0" expanded="true" />
+                <element signature="e#3471#3472#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/bigdata/apache-maven-3.6.3/jar_warehouse/org/apache/spark/spark-core_2.12/3.0.0/spark-core_2.12-3.0.0-sources.jar!/org/apache/spark/executor/Executor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="445" column="13" selection-start-line="445" selection-start-column="13" selection-end-line="445" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/bigdata/apache-maven-3.6.3/jar_warehouse/org/apache/spark/spark-core_2.12/3.0.0/spark-core_2.12-3.0.0-sources.jar!/org/apache/spark/api/java/JavaRDDLike.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-971">
+              <caret line="126" column="3" selection-start-line="126" selection-start-column="3" selection-end-line="126" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>第2步</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/salting.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/bigdata/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="salting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="salting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="salting" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="129" />
+    <option name="y" value="119" />
+    <option name="width" value="1371" />
+    <option name="height" value="1076" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="salting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596465966526" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.25935373" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="salting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="salting" />
+      <module name="salting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.salting" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73a5c727-ebd4-449c-8a43-c7c6fb2bb83b" name="Default Changelist" comment="" />
+      <created>1596435080087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596435080087</updated>
+      <workItem from="1596435081263" duration="9530000" />
+      <workItem from="1596447365753" duration="10741000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20271000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-12" y="37" width="1464" height="841" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10568513" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04761905" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.6634921" />
+      <window_info anchor="bottom" id="Problems" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32944608" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/salting.java</url>
+          <line>148</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/salting.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/log4j.properties" />
+    <entry file="jar://$USER_HOME$/bigdata/apache-maven-3.6.3/jar_warehouse/org/apache/spark/spark-core_2.12/3.0.0/spark-core_2.12-3.0.0-sources.jar!/org/apache/spark/SparkConf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/bigdata/apache-maven-3.6.3/jar_warehouse/org/apache/spark/spark-core_2.12/3.0.0/spark-core_2.12-3.0.0-sources.jar!/org/apache/spark/api/java/function/PairFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/bigdata/apache-maven-3.6.3/jar_warehouse/org/apache/spark/spark-core_2.12/3.0.0/spark-core_2.12-3.0.0-sources.jar!/org/apache/spark/api/java/JavaRDDLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-971">
+          <caret line="126" column="3" selection-start-line="126" selection-start-column="3" selection-end-line="126" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="30" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/bigdata/apache-maven-3.6.3/jar_warehouse/org/apache/spark/spark-core_2.12/3.0.0/spark-core_2.12-3.0.0-sources.jar!/org/apache/spark/executor/Executor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="445" column="13" selection-start-line="445" selection-start-column="13" selection-end-line="445" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/salting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#665#1223#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1163#1339#0" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="e#1438#1790#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+            <element signature="e#1890#2092#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#3026#3472#0" expanded="true" />
+            <element signature="e#3471#3472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25935373" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25935373" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25935373" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>salting</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.clearspring.analytics:stream:2.9.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25935373" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

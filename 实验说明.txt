@@ -1,0 +1,11 @@
+start(启动hadoop集群)
+startspark(启动spark集群)
+spark(spark --master yarn)
+
+hdfs dfs -mkdir /data
+hdfs dfs -put dataskew.txt /data
+
+
+
+Reference:
+[1]https://www.cnblogs.com/frankdeng/p/9301695.html
