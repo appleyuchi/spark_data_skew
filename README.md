@@ -2,10 +2,10 @@
 |  场景   |解决方式| Java工程链接  |Python工程链接|Scala工程链接|参考|
 |  ----  | ----  |----  |----  |----  |--- |
 | 数据源数据文件不均匀(例:tbl.gz文件)|改成可切割文件(例如.txt等)|修改sc.textFile()中的内容即可|修改sc.textFile()中的内容即可|修改sc.textFile()中的内容即可|[2]数据倾斜的常见解决方法-1
-|导致shuffle的算子<br>执行时的并行度不够|提高<br>spark.sql.shuffle.partitions<br>spark.default.parallelism|设置方法可以是：<br>①$SPARK_HOME/conf的配置文件中修改<br>②val spark =SparkSession.builder().<br>appName("spark_skew_test").<br>master("local[2]").config("spark.default.<br>parallelism",defPar).getOrCreate();
+|导致shuffle的算子<br>执行时的并行度不够|提高并行度|设置方法可以是：<br>①$SPARK_HOME/conf的配置文件中修改<br>spark.sql.shuffle.partitions<br>spark.default.parallelism<br>②val spark =SparkSession.builder().<br>appName("spark_skew_test").<br>master("local[2]").config("spark.default.<br>parallelism",defPar).getOrCreate();<br>③Dataset<Row> dataframe = sparkSession.sql( "select * from test");<br>dataframe.toJavaRDD().mapToPair((Row row) -> new Tuple2<Integer, String>(row.getInt(0),row.getString(1))).groupByKey(12)
 |部分key导致倾斜|key-salting(给key前面加随机数)|[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Java/salting)|||[1]解决方案四
-|大数据rdd在join时通过集群IO传播,<br>但是IO带宽有限。所以采用:<br>reduce join->map join|通过Broadcast<br>来避免join|||[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Scala/join%2Bbroadcast)|[1]解决方案五
-|两个RDD/Hive表进行join的时候，如果数据量都比较大，无法采用“解决方案五”|将两个RDD的倾斜部分各自盐化然后进行join,<br>RDD剩余部分各自join,<br>然后俩个join结果再次整合,得到最终结果|[图解](https://yuchi.blog.csdn.net/article/details/107966689)<br>[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Java/sampling_salting)|||[1]解决方案六
+|大数据rdd在join时通过集群IO传播,<br>但是IO带宽有限。所以采用:<br>reduce join->map join|通过Broadcast传递小RDD<br>来避免join时通过IO传输大RDD|||[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Scala/join%2Bbroadcast)|[1]解决方案五
+|两个RDD/Hive表进行join的时候，如果数据量都比较大，无法采用“解决方案五”|将两个RDD的倾斜部分分别盐化、扩容，然后进行join,<br>两个原始RDD剩余部分各自join,<br>上述俩个join结果再次整合,得到最终结果|[图解](https://yuchi.blog.csdn.net/article/details/107966689)<br>[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Java/sampling_salting)|||[1]解决方案六
 ||①一个RDD盐化,<br>②一个RDD扩容100倍,<br>③join后反盐化|||[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Java/Solution7)|[1]解决方案七|
 
 
