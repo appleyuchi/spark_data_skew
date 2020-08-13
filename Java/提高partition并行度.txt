@@ -1,0 +1,12 @@
+设置方法可以是：
+①$SPARK_HOME/conf的配置文件spark-env.sh中修改
+spark.sql.shuffle.partitions
+spark.default.parallelism
+
+②val spark =SparkSession.builder().
+appName("spark_skew_test").
+master("local[2]").config("spark.default.
+parallelism",defPar).getOrCreate();
+
+③Dataset dataframe = sparkSession.sql( "select * from test");
+dataframe.toJavaRDD().mapToPair((Row row) -> new Tuple2<Integer, String>(row.getInt(0),row.getString(1))).groupByKey(12)

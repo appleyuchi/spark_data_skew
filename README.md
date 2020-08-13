@@ -2,7 +2,7 @@
 |  场景   |解决方式| Java工程链接  |Python工程链接|Scala工程链接|参考|
 |  ----  | ----  |----  |----  |----  |--- |
 | 数据源数据文件不均匀(例:tbl.gz文件)|改成可切割文件(例如.txt等)|修改sc.textFile()中的内容即可|修改sc.textFile()中的内容即可|修改sc.textFile()中的内容即可|[2]数据倾斜的常见解决方法-1
-|导致shuffle的算子<br>执行时的并行度不够|提高并行度|设置方法可以是：<br>①$SPARK_HOME/conf的配置文件中修改<br>spark.sql.shuffle.partitions<br>spark.default.parallelism<br>②val spark =SparkSession.builder().<br>appName("spark_skew_test").<br>master("local[2]").config("spark.default.<br>parallelism",defPar).getOrCreate();<br>③Dataset<Row> dataframe = sparkSession.sql( "select * from test");<br>dataframe.toJavaRDD().mapToPair((Row row) -> new Tuple2<Integer, String>(row.getInt(0),row.getString(1))).groupByKey(12)
+|导致shuffle的算子<br>执行时的并行度不够|
 |数据集可大可小|自定义Partitioner<br>根据数据量不同返回一个灵活的自适应的并行度|
 |部分key导致倾斜|key-salting(给key前面加随机数)|[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Java/salting)|||[1]解决方案四
 |大数据rdd在join时通过集群IO传播,<br>但是IO带宽有限。所以采用:<br>reduce join->map join|通过Broadcast传递小RDD<br>来避免join时通过IO传输大RDD|||[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Scala/join%2Bbroadcast)|[1]解决方案五
