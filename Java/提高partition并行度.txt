@@ -8,5 +8,12 @@ appName("spark_skew_test").
 master("local[2]").config("spark.default.
 parallelism",defPar).getOrCreate();
 
-③Dataset dataframe = sparkSession.sql( "select * from test");
-dataframe.toJavaRDD().mapToPair((Row row) -> new Tuple2<Integer, String>(row.getInt(0),row.getString(1))).groupByKey(12)
+③spark-shell下面(直接写入xxxByKey中,下面例子中groupByKey):
+val scores = Array(("class1",95),("class2",85),("class1",75))
+val scoreRDD=sc.parallelize(scores)
+scoreRDD.groupByKey(3).collect.foreach(_._2.foreach(println))
+
+
+
+④如果需要同时在算子中填写具体操作和并行度，示例如下:
+val rdd2 = rdd1.reduceByKey(_+_,10)
