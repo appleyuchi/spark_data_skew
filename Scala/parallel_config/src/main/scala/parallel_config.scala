@@ -14,9 +14,6 @@ object parallel_config {
     val sc = new SparkContext(conf)
 
     //----------------------------面是数据读取----------------------------
-    //    val path1 = "hdfs://Desktop:9000/rdd3.csv"
-    //    var rdd1 = sc.textFile(path1).map(line => line.split(",")).map { case Array(f1, f2) => (f1, f2) }
-
 
     val path1 = "hdfs://Desktop:9000/rdd1.csv"
     val path2 = "hdfs://Desktop:9000/rdd2.csv"

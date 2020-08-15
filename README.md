@@ -5,7 +5,7 @@
 |过滤少数导致倾斜的key|-|-|-|-|[1]解决方案二
 | 数据源数据文件不均匀(例:tbl.gz文件)|改成可切割文件(例如.txt等)|修改sc.textFile()中的内容即可|修改sc.textFile()中的内容即可|修改sc.textFile()中的内容即可|[2]数据倾斜的常见解决方法-1
 |导致shuffle的算子<br>执行时的并行度不够|提升并行度|[提升并行度配置或Java代码配置](https://github.com/appleyuchi/spark_data_skew/blob/master/Java/Java提升并行度.txt)|[提升并行度配置或Python代码配置](https://github.com/appleyuchi/spark_data_skew/blob/master/Python/提高并行度.txt)|[提升并行度配置或Scala代码配置](https://github.com/appleyuchi/spark_data_skew/blob/master/Scala/提高partition并行度.txt)|[1]解决方案三
-|数据集可大可小|自定义Partitioner<br>根据数据量不同返回一个灵活的自适应的并行度|[Java自定义partition数量](https://github.com/appleyuchi/spark_data_skew/tree/master/Java/parallel_config)[3]|[Python自定义partition数量](https://github.com/appleyuchi/spark_data_skew/blob/master/Python/自定义partition.py)||参考自[3]
+|数据集可大可小|自定义Partitioner<br>根据数据量不同返回一个灵活的自适应的并行度|[Java自定义partition数量](https://github.com/appleyuchi/spark_data_skew/tree/master/Java/parallel_config)[3]|[Python自定义partition数量](https://github.com/appleyuchi/spark_data_skew/blob/master/Python/自定义partition.py)|[Scala自定义partition数量](https://github.com/appleyuchi/spark_data_skew/tree/master/Scala/parallel_config)|参考自[3]
 |部分key导致倾斜|key-salting(给key前面加随机数)|[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Java/salting)|||[1]解决方案四
 |大数据rdd在join时通过集群IO传播,<br>但是IO带宽有限。所以采用:<br>reduce join->map join|通过Broadcast传递小RDD<br>来避免join时通过IO传输大RDD|||[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Scala/join+broadcast/)|[1]解决方案五
 |两个RDD/Hive表进行join的时候，如果数据量都比较大，无法采用“解决方案五”|将两个RDD的倾斜部分分别盐化、扩容，然后进行join,<br>两个原始RDD剩余部分各自join,<br>上述俩个join结果再次整合,得到最终结果|[博客图解](https://yuchi.blog.csdn.net/article/details/107966689)<br>[代码](https://github.com/appleyuchi/spark_data_skew/tree/master/Java/sampling_salting)|||[1]解决方案六
