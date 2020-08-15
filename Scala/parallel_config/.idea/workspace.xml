@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="769297b0-811e-4669-83b5-8b8ddb153c53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Java/sampling_salting/优化前代码/rdd3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/sampling_salting/优化前代码/rdd3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/parallel_config.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/parallel_config.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/parallel_config.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parallel_config.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/META-INF/parallel_config.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/parallel_config.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/parallel_config.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/target/sampling-salting-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sampling-salting-1.0-SNAPSHOT.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="769297b0-811e-4669-83b5-8b8ddb153c53" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/parallel_config.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            <state relative-caret-position="134">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -176,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597497702383" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597497870524" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -231,16 +202,15 @@
       <updated>1597405930932</updated>
       <workItem from="1597405932666" duration="3791000" />
       <workItem from="1597454507335" duration="23004000" />
-      <workItem from="1597483782864" duration="9408000" />
+      <workItem from="1597483782864" duration="9724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36203000" />
+    <option name="totallyTimeSpent" value="36519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="37" width="1464" height="841" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.196793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -251,7 +221,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31269842" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16984127" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,7 +237,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.28717202" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.071428575" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32944608" />
@@ -334,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/parallel_config.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        <state relative-caret-position="134">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
