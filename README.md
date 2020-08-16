@@ -27,3 +27,7 @@ Reference:<br>
 [3][Spark性能优化之道——解决Spark数据倾斜（Data Skew）的N种姿势](https://www.cnblogs.com/cssdongl/p/6594298.html)
 
 注意[2]里面还有scala自定义partition的代码,不要漏掉了
+
+注意:
+不同语言的解决方案中的变量名称不一定绝对一致，极少部分是不对称的，
+因为有现成方案时，便不再考虑从Java方案进行改写过来
