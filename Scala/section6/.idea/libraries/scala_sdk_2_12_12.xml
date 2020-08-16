@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="scala-sdk-2.12.12" type="Scala">
+    <properties>
+      <compiler-classpath>
+        <root url="file://$USER_HOME$/bigdata/scala-2.12.12/lib/scala-library.jar" />
+        <root url="file://$USER_HOME$/bigdata/scala-2.12.12/lib/scala-reflect.jar" />
+        <root url="file://$USER_HOME$/bigdata/scala-2.12.12/lib/scala-compiler.jar" />
+      </compiler-classpath>
+    </properties>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/bigdata/scala-2.12.12/lib/scala-library.jar!/" />
+      <root url="jar://$USER_HOME$/bigdata/scala-2.12.12/lib/scala-swing_2.12-2.0.3.jar!/" />
+      <root url="jar://$USER_HOME$/bigdata/scala-2.12.12/lib/scala-reflect.jar!/" />
+      <root url="jar://$USER_HOME$/bigdata/scala-2.12.12/lib/scala-xml_2.12-1.0.6.jar!/" />
+      <root url="jar://$USER_HOME$/bigdata/scala-2.12.12/lib/scala-parser-combinators_2.12-1.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="http://www.scala-lang.org/api/2.12.12/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

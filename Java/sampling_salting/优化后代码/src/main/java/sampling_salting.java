@@ -27,7 +27,7 @@ public static void main(String[]  args)
 
 
     SparkConf conf  = new SparkConf().setMaster("spark://Desktop:7077")
-            .setJars(new String[]{"/home/appleyuchi/桌面/spark_success/Spark数据倾斜处理/Java/sampling_salting/优化后代码/target/sampling-salting-1.0-SNAPSHOT.jar"})
+            .setJars(new String[]{"/home/appleyuchi/桌面/Spark数据倾斜处理/Java/sampling_salting/优化后代码/target/sampling-salting-1.0-SNAPSHOT.jar"})
             .setAppName("join");
     JavaSparkContext sc = new JavaSparkContext(conf);
 
@@ -163,6 +163,10 @@ public static void main(String[]  args)
             }
     }
             );
+
+
+    System.out.println("--------------------看下skewedRdd2-------------------------------");
+    System.out.println(skewedRdd2.collect().get(0));
 
 // 将rdd1中分拆出来的导致倾斜的key的独立rdd，每条数据都打上100以内的随机前缀。
 // 然后将这个rdd1中分拆出来的独立rdd，与上面rdd2中分拆出来的独立rdd，进行join。

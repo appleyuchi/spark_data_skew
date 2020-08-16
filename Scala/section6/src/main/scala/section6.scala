@@ -6,11 +6,11 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.log4j.Logger
 
 import scala.util.Random
-
 import util.Random
-
+import scala.Tuple2
 
 object section6 {
+
   def main(args: Array[String]): Unit = { //消除warning
     Logger.getLogger("org.apache.hadoop").setLevel(Level.WARN)
     Logger.getLogger("org.apache.spark").setLevel(Level.WARN)
@@ -59,6 +59,8 @@ object section6 {
 //这里的take(1)的意思是:
 // 具体取出多少个数据量最多的key，由大家自己决定，我们这里就取1个作为示范。
 
+    println("-----------------------skewedUserid------------------------------")
+    println(skewedUserid)
 
 // 因为是随机抽取，所以下面的结果每次都可能不一样
 //    (8,1)表示的是(key的统计数量，key名称)
@@ -76,22 +78,30 @@ object section6 {
     // 这里将rdd2中，前面获取到的key对应的数据，过滤出来，分拆成单独的rdd，并对rdd中的数据使用flatMap算子都扩容100倍。
     // 对扩容的每条数据，都打上0～100的前缀。
 
+//def func2(tuple:Tuple2[Long,String]):Iterator[Tuple2[String,String]]={
+//
+//
+//  val list: List[Tuple2[String,String]] = List()
+//
+//  for(i<-0 until 100)
+//    list:+Tuple2[String, String](i + "_" + tuple._1,tuple._2)
+//
+//  return list.iterator
+//}
 
-    def func2(tuple:Tuple2[Long,String]):scala.Iterable[Tuple2[String,String]]=
-    {
-
-      val result = List()
-
+    def func2(tuple:Tuple2[Long,String]):Iterator[Tuple2[String,String]]={
+      var list: List[Tuple2[String,String]] = List()
       for(i<-0 until 100)
-      result:+Tuple2[String,String](i+"_"+tuple._1,tuple._2)
-
-      return result.toIterable
+        list = list:+Tuple2[String, String](i + "_" + tuple._1,tuple._2)
+      //      list.toIterator
+      list.iterator
     }
 
 
-    val skewedRdd2 = rdd2.filter(v1=>v1._1.equals(skewedUserid)).flatMap(tuple=>func2(tuple))
+
+    val skewedRdd2 = rdd2.filter(v1=>v1._1.equals(skewedUserid)).flatMap(line=>func2(line))
     println("--------------------输出skewedRdd2----------------")
-    println(skewedRdd2.collect())
+    println(skewedRdd2.collect()(0))
 
 
 
