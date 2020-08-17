@@ -27,5 +27,6 @@ Reference:<br>
 [3][Spark性能优化之道——解决Spark数据倾斜（Data Skew）的N种姿势](https://www.cnblogs.com/cssdongl/p/6594298.html)
 
 注:
-①上述解决方案中，极个别情况下，不同语言解决方案之间的变量名没有一一对应，不影响data skew的处理。
-②部分解决方案只在spark的shell模式中调试通过。
+Pycharm中的Pyspark连接远程Spark集群，
+存在worker(自动采用系统python版本，无法修改)与Driver的Python版本不一致问题，
+目前暂时无法调试。
