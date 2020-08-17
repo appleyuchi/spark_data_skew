@@ -21,7 +21,8 @@
 注:<br>
 ①Pycharm中的Pyspark连接远程Spark集群，<br>
 存在worker(自动采用worker的系统路径python版本，无法修改)与Driver的Python版本不一致问题，<br>
-目前暂时无法调试(除非各个节点Python版本一致)。<br>
+目前暂时无法调试、无法提交(除非各个节点系统自带Python版本一致)。<br>
+而local模式不具备实际意义，故这部分姑且放下。<br>
 ②补全了美团spark数据倾斜方案中的bug、变量错误、少量逻辑错误和代码不完整的问题,并增加Python和Scala两种写法
 
 Reference:<br>
