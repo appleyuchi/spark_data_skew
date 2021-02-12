@@ -18,6 +18,7 @@
 
 
 
+
 注:<br>
 ①Pycharm中的Pyspark连接远程Spark集群，<br>
 存在worker(自动采用worker的系统路径python版本，无法修改)与Driver的Python版本不一致问题，<br>
@@ -25,8 +26,16 @@
 而local模式不具备实际意义，故这部分姑且放下。<br>
 ②补全了美团spark数据倾斜方案中的bug、变量错误、少量逻辑错误和代码不完整的问题,并增加Python和Scala两种写法
 
+补充:
+[4]中提到:
+ join时候, 如果表的数据量低于spark.sql.autoBroadcastJoinThreshold参数值时(默认值为10 MB), spark会自动进行broadcast(隐式的优化方案)
+ 所以上面表格中的broadcast只是一种显式的优化方案
+ 
+
+
 Reference:<br>
 [1][Spark性能优化指南——高级篇](https://tech.meituan.com/2016/05/12/spark-tuning-pro.html)<br>
 [2][Spark如何处理数据倾斜](https://blog.csdn.net/kaede1209/article/details/81145560)<br>
 [3][Spark性能优化之道——解决Spark数据倾斜（Data Skew）的N种姿势](https://www.cnblogs.com/cssdongl/p/6594298.html)
+[4][工作经验分享：Spark调优【优化后性能提升1200%】 ](https://www.sohu.com/a/448261044_797717)
 
