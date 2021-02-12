@@ -2,7 +2,7 @@
 |  场景   |解决方式| Java工程链接  |Python工程链接|Scala工程链接|参考|
 |  ----  | ----  |----  |----  |----  |--- |
 |利用hive进行预处理(倾斜的key)|-|-|-|-|[1]解决方案一
-|过滤少数导致倾斜的key|-|-|-|-|[1]解决方案二
+|过滤少数导致倾斜的key<br>分开计算|-|-|-|-|[1]解决方案二
 | 数据源数据文件不均匀(例:tbl.gz文件)|改成可切割文件(例如.txt等)|修改sc.textFile()中的内容即可|修改sc.textFile()中的内容即可|修改sc.textFile()中的内容即可|[2]数据倾斜的常见解决方法-1
 |导致shuffle的算子<br>执行时的并行度不够|提升并行度|[提升并行度配置或Java代码配置](https://github.com/appleyuchi/spark_data_skew/blob/master/Java/Java提升并行度.txt)|[提升并行度配置或Python代码配置](https://github.com/appleyuchi/spark_data_skew/blob/master/Python/提高并行度.txt)|[提升并行度配置或Scala代码配置](https://github.com/appleyuchi/spark_data_skew/blob/master/Scala/提高partition并行度.txt)|[1]解决方案三
 |数据集可大可小|自定义Partitioner<br>根据数据量不同返回一个灵活的自适应的并行度|[Java自定义partition数量](https://github.com/appleyuchi/spark_data_skew/tree/master/Java/parallel_config)[3]|[Python自定义partition数量](https://github.com/appleyuchi/spark_data_skew/blob/master/Python/自定义partition.py)|[Scala自定义partition数量](https://github.com/appleyuchi/spark_data_skew/tree/master/Scala/parallel_config)|参考自[3]
